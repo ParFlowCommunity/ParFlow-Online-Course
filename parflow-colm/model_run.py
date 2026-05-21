@@ -226,44 +226,6 @@ model.Geom.domain.Perm.TensorValX = 1.0
 model.Geom.domain.Perm.TensorValY = 1.0
 model.Geom.domain.Perm.TensorValZ = 1.0
 
-# CONCN.Perm.TensorType = 'TensorByGeom'
-# CONCN.Geom.Perm.TensorByGeom.Names = 'domain b1 b2 g1 g2 g4 g5 g6 g7'
-
-# CONCN.Geom.domain.Perm.TensorValX = 1.0
-# CONCN.Geom.domain.Perm.TensorValY = 1.0
-# CONCN.Geom.domain.Perm.TensorValZ = 1.0
-
-# CONCN.Geom.b1.Perm.TensorValX = 1.0
-# CONCN.Geom.b1.Perm.TensorValY = 1.0
-# CONCN.Geom.b1.Perm.TensorValZ = 0.1
-
-# CONCN.Geom.b2.Perm.TensorValX = 1.0
-# CONCN.Geom.b2.Perm.TensorValY = 1.0
-# CONCN.Geom.b2.Perm.TensorValZ = 0.1
-
-# CONCN.Geom.g1.Perm.TensorValX = 1.0
-# CONCN.Geom.g1.Perm.TensorValY = 1.0
-# CONCN.Geom.g1.Perm.TensorValZ = 0.1
-
-# CONCN.Geom.g2.Perm.TensorValX = 1.0
-# CONCN.Geom.g2.Perm.TensorValY = 1.0
-# CONCN.Geom.g2.Perm.TensorValZ = 0.1
-
-# CONCN.Geom.g4.Perm.TensorValX = 1.0
-# CONCN.Geom.g4.Perm.TensorValY = 1.0
-# CONCN.Geom.g4.Perm.TensorValZ = 0.1
-
-# CONCN.Geom.g5.Perm.TensorValX = 1.0
-# CONCN.Geom.g5.Perm.TensorValY = 1.0
-# CONCN.Geom.g5.Perm.TensorValZ = 0.1
-
-# CONCN.Geom.g6.Perm.TensorValX = 1.0
-# CONCN.Geom.g6.Perm.TensorValY = 1.0
-# CONCN.Geom.g6.Perm.TensorValZ = 0.1
-
-# CONCN.Geom.g7.Perm.TensorValX = 1.0
-# CONCN.Geom.g7.Perm.TensorValY = 1.0
-# CONCN.Geom.g7.Perm.TensorValZ = 0.1
 
 # -----------------------------------------------------------------------------
 # Specific Storage
@@ -514,11 +476,6 @@ model.Cycle.constant.Names = "alltime"
 model.Cycle.constant.alltime.Length = 1
 model.Cycle.constant.Repeat = -1
 
-# model.Cycle.rainrec.Names = 'rain rec'
-# model.Cycle.rainrec.rain.Length = 10
-# model.Cycle.rainrec.rec.Length = 150
-# model.Cycle.rainrec.Repeat = -1
-
 # -----------------------------------------------------------------------------
 # Boundary Conditions
 # -----------------------------------------------------------------------------
@@ -637,7 +594,6 @@ model.dist("slope_x.pfb")
 model.dist("slope_y.pfb")
 model.dist("subsurface_11layer.pfb")
 model.dist("initial_press_11layer.pfb") 
-# model.dist("manning.pfb")
 
 #-----------------------------------------------------------------------------
 # Run
