@@ -29,7 +29,7 @@
 ### 运行
 若还未安装ParFlow，请参考[ParFLow Docker环境中文配置指南](https://github.com/ParFlowCommunity/ParFlow-Docker-CN)
 
-启动DocKer
+在该实例目录下，启动DocKer
 ```bash
 docker run -d --rm -v ./:/workspace -p 8888:8888 parflowcommunity/parflow-docker-cn:v1.0
 ```
