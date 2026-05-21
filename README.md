@@ -2,7 +2,7 @@
 
 本仓库提供两个 ParFlow 耦合陆面模式的实例，分别提供 ParFlow-CLM 和 ParFlow-CoLM 的输入文件和运行脚本。
 
-更多有关ParFlow教程请关注我们的公众号： **ParFlow Community**
+更多有关 ParFlow 教程请关注我们的公众号： **ParFlow Community**
 
 ![ParFlow Community](ParFlowCommunity.jpg)
 
