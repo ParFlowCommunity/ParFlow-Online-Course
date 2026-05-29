@@ -4,7 +4,7 @@
 
 更多有关 ParFlow 教程请关注我们的公众号：**ParFlow Community**
 
-![ParFlow Community](./imgs/ParFlowCommunity.jpg)
+<img src="./imgs/ParFlowCommunity.jpg" width="200">
 
 ---
 
