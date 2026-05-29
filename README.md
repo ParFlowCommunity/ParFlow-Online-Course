@@ -1,4 +1,4 @@
-# ParFLow Online Course
+# ParFlow-Online-Course
 
 本仓库用于整理 ParFlow 在线课程资料，包括课程讲义和 ParFlow 耦合陆面模式示例。
 
