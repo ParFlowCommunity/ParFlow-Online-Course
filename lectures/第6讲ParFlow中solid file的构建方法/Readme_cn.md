@@ -1,8 +1,6 @@
 # 创建和使用实体文件（.pfsol）
 
-*ParFlow 高级短期课程*  
-*作者：Nick Engdahl*  
-*(nick.engdahl@wsu.edu)*
+*来源：ParFlow 高级短期课程 作者：Nick Engdahl*  
 
 ## 准备工作：获取 Patchy_Solid 分支
 
