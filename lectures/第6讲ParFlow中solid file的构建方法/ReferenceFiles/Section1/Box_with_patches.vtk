@@ -1,0 +1,58 @@
+# vtk DataFile Version 3.0
+Rectangular ParFlow solid with patch IDs
+ASCII
+DATASET POLYDATA
+POINTS 8 float
+0.0 0.0 0.0
+20.0 0.0 0.0
+0.0 10.0 0.0
+20.0 10.0 0.0
+0.0 0.0 8.0
+20.0 0.0 8.0
+0.0 10.0 8.0
+20.0 10.0 8.0
+
+POLYGONS 12 48
+3 1 0 2
+3 2 3 1
+3 6 4 5
+3 5 7 6
+3 6 2 0
+3 0 4 6
+3 1 3 7
+3 7 5 1
+3 4 0 1
+3 1 5 4
+3 3 2 6
+3 6 7 3
+
+CELL_DATA 12
+SCALARS Patch int 1
+LOOKUP_TABLE default
+0
+0
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+
+SCALARS TriangleID int 1
+LOOKUP_TABLE default
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
